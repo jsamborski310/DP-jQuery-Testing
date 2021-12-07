@@ -1,0 +1,101 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+:root {
+  --salmon: #FA8072;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+
+.jumbotron {
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  border-bottom: 10px solid var(--salmon);
+}
+
+/* Table */
+
+.tableContainer {
+  padding: 20px;
+}
+
+table {
+  margin-left: auto;
+  margin-right:auto;
+ margin-bottom:80px;
+}
+
+.timeOfDay {
+  padding-right: 10px;
+}
+
+.tdInput {
+  width: 80%;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  padding: 10px;
+  width:100%;
+}
+textarea:focus-visible {
+  outline:none;
+}
+
+
+
+/* Past, Present, Future */
+
+.past {
+  background-color: #FA807280;
+  border-bottom: 3px solid white;
+}
+
+.present {
+  background-color: #FA807250;
+  border-bottom: 3px solid white;
+}
+
+.future {
+  background-color: #FA807220;
+  border-bottom: 3px solid white;
+}
+
+
+/* Button */
+
+button {
+  background-color:transparent;
+  border: none;
+  color:white;
+}
+
+button:focus-visible,
+button:not(:disabled),
+button:focus {
+  outline:none!important;
+}
+
+.far {
+  font-size: 25px;
+  background-color: var(--salmon);
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  margin: 10px 0 10px 10px;
+}
+.far:hover {
+  background-color: #FA807280;
+}
